@@ -1,0 +1,16 @@
+protocolos:
+  caracteristicas:
+    - tamanho maximo total de 1500 bytes
+    - cabecalho e cauda juntos são chamados de overhead
+  formato:
+    cabecalho:
+      - enderecos
+      - tamanho
+      - numero de pacotes
+      - etc
+    dados:
+      - dados a serem enviados
+      - particionados em pacotes
+    cauda:
+      - controle de erro (geralmente)
+      - etc

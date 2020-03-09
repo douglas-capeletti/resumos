@@ -1,0 +1,42 @@
+tipos-de-rede:
+  pan: 
+    definicao: personal area network
+  lan: 
+    definicao: local area network
+  wlan: 
+    definicao: wireless local area network
+  man: 
+    definicao: metropolitan area network
+  wan: 
+    definicao: wide area network
+
+tipos-de-conexao:
+  simplex:
+    caracteristicas:
+      - sentido unico
+      - produtor e consumidor descrimidados
+  half-duplex:
+    caracteristicas:
+      - sentido duplo
+      - um comunicador por vez
+  full-duplex:
+    caracteristicas:
+      - sentido duplo
+      - comunicacoes simultaneas
+
+tipos-de-ligacao:
+  multiponto:
+    caracteristicas:
+      - conexao coaxial
+      - muita colisao de rede
+      - interdependencia entre os pontos conectados na rede
+      - um cabo conecta a todos os pontos da rede
+      - necessário passar por todos os pontos até chegar ao ultimo
+      - conectados a um hub
+  ponto-a-ponto:
+    caracteristicas:
+      - par trancado (rj-45)
+      - fibra otica
+      - necessita um cabo para conexão em cada ponto
+      - chega diretamente ao ultimo ponto
+      - conectados a um switch
